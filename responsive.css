@@ -18,16 +18,16 @@ body
         line-height: 1.5;
     }
 
+ul
+    {
+        list-style: none;
+    }
+
 li
     {
         float: left;
         margin-top: 1.5%;
         margin-right: auto;
-    }
-
-ul
-    {
-        list-style: none;
     }
 
 img:hover
@@ -41,18 +41,18 @@ picture, img
         transition: transform 0.5s ease-in-out;
     }
 
-@media screen and (min-width: 1201px)
-    {
-        li
-            {
-                width: 25%;
-            }
-    }
-
 @media screen and (min-width: 600px)
     {
         li
             {
                 width: 50%;
+            }
+    }
+
+@media screen and (min-width: 1201px)
+    {
+        li
+            {
+                width: 25%;
             }
     }
