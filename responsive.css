@@ -16,16 +16,21 @@ body
         line-height: 1.5;
     }
 
-ul
-    {
-        list-style: none;
-    }
-
 li
     {
         float: left;
         margin-top: 1.5%;
         margin-right: auto;
+    }
+
+ul
+    {
+        list-style: none;
+    }
+
+img:hover
+    {
+        transform:rotate(5deg);
     }
 
 picture, img
@@ -34,9 +39,12 @@ picture, img
         transition: transform 0.5s ease-in-out;
     }
 
-img:hover
+@media screen and (min-width: 1201px)
     {
-        transform:rotate(5deg);
+        li
+            {
+                width: 25%;
+            }
     }
 
 @media screen and (min-width: 600px)
@@ -44,13 +52,5 @@ img:hover
         li
             {
                 width: 50%;
-            }
-    }
-
-@media screen and (min-width: 1201px)
-    {
-        li
-            {
-                width: 25%;
             }
     }
