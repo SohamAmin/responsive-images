@@ -1,0 +1,56 @@
+/*
+All images used belong to:
+
+Markus Spiske - https://500px.com/markusspiske
+
+Yinan Chen - https://500px.com/webmaster85
+
+Fahim Akhter - https://500px.com/fahimakhter
+*/
+/* resized images and some help r taken from my friend trushar khunt */
+body
+    {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        line-height: 1.5;
+    }
+
+ul
+    {
+        list-style: none;
+    }
+
+li
+    {
+        float: left;
+        margin-top: 1.5%;
+        margin-right: auto;
+    }
+
+picture, img
+    {
+        width: 90%;
+        transition: transform 0.5s ease-in-out;
+    }
+
+img:hover
+    {
+        transform:rotate(5deg);
+    }
+
+@media screen and (min-width: 600px)
+    {
+        li
+            {
+                width: 50%;
+            }
+    }
+
+@media screen and (min-width: 1201px)
+    {
+        li
+            {
+                width: 25%;
+            }
+    }
